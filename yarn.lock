@@ -2337,9 +2337,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@hyperlane-xyz/sdk@npm:@fuel-infrastructure/fuel-hyperlane-sdk@0.0.1":
-  version: 0.0.1
-  resolution: "@fuel-infrastructure/fuel-hyperlane-sdk@npm:0.0.1"
+"@hyperlane-xyz/sdk@npm:@fuel-infrastructure/fuel-hyperlane-sdk@0.0.2":
+  version: 0.0.2
+  resolution: "@fuel-infrastructure/fuel-hyperlane-sdk@npm:0.0.2"
   dependencies:
     "@arbitrum/sdk": "npm:^4.0.0"
     "@aws-sdk/client-s3": "npm:^3.577.0"
@@ -2364,13 +2364,13 @@ __metadata:
   peerDependencies:
     "@ethersproject/abi": "*"
     "@ethersproject/providers": "*"
-  checksum: 10/b2dcaede348a013266e7e451d2544dd37eb9b4c04f39f04fe1b550fdb9d99928f756b19941c32b02e75d85198086d261a1f126d550ac37db527837ca64c6f33b
+  checksum: 10/b877d2b0d0f794e444a9349f5303d42be77ecb78128a377d41097394c9ba28e8ae3f252f4d155ca99caaf329b1323c693940c45918f83993beecc514a334af14
   languageName: node
   linkType: hard
 
-"@hyperlane-xyz/utils@npm:@fuel-infrastructure/fuel-hyperlane-utils@0.0.1":
-  version: 0.0.1
-  resolution: "@fuel-infrastructure/fuel-hyperlane-utils@npm:0.0.1"
+"@hyperlane-xyz/utils@npm:@fuel-infrastructure/fuel-hyperlane-utils@0.0.2":
+  version: 0.0.2
+  resolution: "@fuel-infrastructure/fuel-hyperlane-utils@npm:0.0.2"
   dependencies:
     "@cosmjs/encoding": "npm:^0.32.4"
     "@solana/web3.js": "npm:^1.95.4"
@@ -2380,7 +2380,7 @@ __metadata:
     lodash-es: "npm:^4.17.21"
     pino: "npm:^8.19.0"
     yaml: "npm:2.4.5"
-  checksum: 10/c75fb6804477c52d6cfaf0a1fb23c42a52cf5520ba399d2f36aecf8630f2d17dd067eedfb55106148bffd5f9bf201abbbcae9c64a4069cc6fef0bc25ed1e4be4
+  checksum: 10/dc6b362a7dd1928dc2764be61636daab07d18d5a5553fe6b96044047058aab604c1b2e5d9e6a497c4772fc504dac8cea7f1eb372e8b3c084564a0b0808195f68
   languageName: node
   linkType: hard
 
