@@ -1,7 +1,7 @@
 {
   "name": "@fuel-infrastructure/fuel-hyperlane-registry",
   "description": "A collection of configs, artifacts, and schemas for Hyperlane",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "dependencies": {
     "yaml": "2.4.5",
     "zod": "^3.21.2"
@@ -78,7 +78,7 @@
   },
   "packageManager": "yarn@4.5.1",
   "resolutions": {
-    "@hyperlane-xyz/sdk": "npm:@fuel-infrastructure/fuel-hyperlane-sdk@0.0.2",
-    "@hyperlane-xyz/utils": "npm:@fuel-infrastructure/fuel-hyperlane-utils@0.0.2"
+    "@hyperlane-xyz/sdk": "npm:@fuel-infrastructure/fuel-hyperlane-sdk@0.0.3",
+    "@hyperlane-xyz/utils": "npm:@fuel-infrastructure/fuel-hyperlane-utils@0.0.3"
   }
 }

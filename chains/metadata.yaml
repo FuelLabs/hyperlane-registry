@@ -2639,12 +2639,15 @@ fueltestnet:
   name: fueltestnet
   nativeToken:
     decimals: 9
+    denom: "0xf8f8b6283d7fa5b672b530cbb84fcccb4ff8dc40f8176ef4544ddb1f1952ad07"
     name: Ethereum
     symbol: ETH
   protocol: fuel
   rpcUrls:
     - http: https://testnet.fuel.network/v1/graphql
   technicalStack: other
+  transactionOverrides:
+    gasPrice: 1
 fuji:
   blockExplorers:
     - apiUrl: https://api.routescan.io/v2/network/testnet/evm/43113/etherscan/api
