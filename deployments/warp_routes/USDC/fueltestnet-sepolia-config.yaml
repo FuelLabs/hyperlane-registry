@@ -3,6 +3,7 @@ tokens:
   - chainName: sepolia
     standard: EvmHypCollateral
     decimals: 6
+    logoURI: /deployments/warp_routes/USDC/logo.svg
     symbol: USDC
     name: USDC
     addressOrDenom: "0xb0E03bf85baca7874C44Dbe2C961515e7F4529fe"
@@ -12,6 +13,7 @@ tokens:
   - chainName: fueltestnet
     standard: FuelHypSynthetic
     decimals: 6
+    logoURI: /deployments/warp_routes/USDC/logo.svg
     symbol: USDC
     name: USDC
     addressOrDenom: "0xfe93aaebea83b024776d0f842aa4ecf812c5ad762790534a99285b95452b060a"

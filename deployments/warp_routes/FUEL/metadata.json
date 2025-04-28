@@ -1,0 +1,7 @@
+{
+  "name": "Fuel",
+  "symbol": "FUEL",
+  "description": "Warp Route FUEL",
+  "image": "https://raw.githubusercontent.com/fuel-infrastructure/hyperlane-registry/refs/heads/main/deployments/warp_routes/FUEL/logo.svg",
+  "attributes": []
+}
