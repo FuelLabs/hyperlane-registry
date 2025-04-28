@@ -4,8 +4,6 @@ tokens:
     chainName: sepolia
     collateralAddressOrDenom: "0xd7Fc4e8FB2c05567C313f4C9b9e07641a361a550"
     connections:
-      - token: ethereum|arbitrumsepolia|0xfC824092A0f66272aff37cF6A8132e8DA0C1B7E8
-      - token: ethereum|basesepolia|0x06D8487A026F8d7E1aABF26CAeD6d7a632c57074
       - token: fuel|fueltestnet|0xf3ea5de481f3a0cc8c01c69a51b91190b8b2cef25c3aba39f7925931c46914ae
     decimals: 9
     name: Fuel Token
@@ -15,7 +13,6 @@ tokens:
   - addressOrDenom: "0xf3ea5de481f3a0cc8c01c69a51b91190b8b2cef25c3aba39f7925931c46914ae"
     chainName: fueltestnet
     connections:
-      - token: ethereum|basesepolia|0x06D8487A026F8d7E1aABF26CAeD6d7a632c57074
       - token: ethereum|sepolia|0x664E4E7Cf797019846364c981247FD7BBF2fe9B7
     decimals: 9
     name: Fuel Token

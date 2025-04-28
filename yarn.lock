@@ -2337,9 +2337,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@hyperlane-xyz/sdk@npm:@fuel-infrastructure/fuel-hyperlane-sdk@0.0.3":
-  version: 0.0.3
-  resolution: "@fuel-infrastructure/fuel-hyperlane-sdk@npm:0.0.3"
+"@hyperlane-xyz/sdk@npm:@fuel-infrastructure/fuel-hyperlane-sdk@0.0.4":
+  version: 0.0.4
+  resolution: "@fuel-infrastructure/fuel-hyperlane-sdk@npm:0.0.4"
   dependencies:
     "@arbitrum/sdk": "npm:^4.0.0"
     "@aws-sdk/client-s3": "npm:^3.577.0"
@@ -2364,7 +2364,7 @@ __metadata:
   peerDependencies:
     "@ethersproject/abi": "*"
     "@ethersproject/providers": "*"
-  checksum: 10/865e8a5543eb2cc2851ee905642dbd91de828d053dd815ef48ad3f25334d1d861d8b9bffb063bf8eb019f31d55767a16eb36339b203fb0fb267a2dd43acc39b8
+  checksum: 10/abfdcb754ea9a4cf3d8bac90163a2b32876a23fabf4c4b881c26690423d9ab2f21d5a47726869dacab7824045c96f813fd5eccd75b88aa03d44744344d827bb4
   languageName: node
   linkType: hard
 
