@@ -2612,12 +2612,15 @@ fuelignition:
   name: fuelignition
   nativeToken:
     decimals: 9
+    denom: "0xf8f8b6283d7fa5b672b530cbb84fcccb4ff8dc40f8176ef4544ddb1f1952ad07"
     name: Ethereum
     symbol: ETH
   protocol: fuel
   rpcUrls:
     - http: https://mainnet.fuel.network/v1/graphql
   technicalStack: other
+  transactionOverrides:
+    gasPrice: 1
 fueltestnet:
   blockExplorers:
     - apiUrl: https://app-testnet.fuel.network
