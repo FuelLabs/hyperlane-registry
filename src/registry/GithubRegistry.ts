@@ -90,7 +90,7 @@ export class GithubRegistry extends BaseRegistry implements IRegistry {
     this.repoName = repoName;
     if (options.branch && repoBranch) throw new Error('Branch is set in both options and url.');
 
-    this.branch = options.branch ?? repoBranch ?? 'main';
+    this.branch = options.branch ?? repoBranch ?? 'only-fuel-routes';
     this.proxyUrl = options.proxyUrl;
     this.authToken = options.authToken;
   }

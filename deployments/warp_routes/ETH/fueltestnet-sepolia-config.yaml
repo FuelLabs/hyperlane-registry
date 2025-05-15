@@ -15,5 +15,6 @@ tokens:
     symbol: ETH
     name: Ether
     addressOrDenom: "0x43c94eff3e3d8832d5e69cb441ba94c6cd2ad83fb496497aee6f5b78b5b02ba0"
+    logoURI: /deployments/warp_routes/ETH/logo.svg
     connections:
       - token: ethereum|sepolia|0xb94903d736789fd36c7f77f86e89a486bb4c11c8
