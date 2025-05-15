@@ -27,6 +27,7 @@ nativeToken:
   symbol: ETH
 protocol: ethereum
 rpcUrls:
+  - http: https://spectrum-02.simplystaking.xyz/eth-mainnet-rpc
   - http: https://rpc.ankr.com/eth
   - http: https://ethereum.publicnode.com
   - http: https://cloudflare-eth.com
