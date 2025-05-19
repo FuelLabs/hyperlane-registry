@@ -2,6 +2,6 @@
   "name": "Tether USD",
   "symbol": "USDT",
   "description": "Warp Route USDT",
-  "image": "https://raw.githubusercontent.com/fuel-infrastructure/hyperlane-registry/refs/heads/only-fuel-routes/deployments/warp_routes/USDT/logo.svg",
+  "image": "https://raw.githubusercontent.com/FuelLabs/hyperlane-registry/refs/heads/only-fuel-routes/deployments/warp_routes/USDT/logo.svg",
   "attributes": []
 }

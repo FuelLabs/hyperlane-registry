@@ -2,6 +2,6 @@
   "name": "Ethereum",
   "symbol": "ETH",
   "description": "Warp Route ETH",
-  "image": "https://raw.githubusercontent.com/fuel-infrastructure/hyperlane-registry/refs/heads/only-fuel-routes/deployments/warp_routes/ETH/logo.svg",
+  "image": "https://raw.githubusercontent.com/FuelLabs/hyperlane-registry/refs/heads/only-fuel-routes/deployments/warp_routes/ETH/logo.svg",
   "attributes": []
 }

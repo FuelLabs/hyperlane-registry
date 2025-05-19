@@ -2,6 +2,6 @@
   "name": "Fuel",
   "symbol": "FUEL",
   "description": "Warp Route FUEL",
-  "image": "https://raw.githubusercontent.com/fuel-infrastructure/hyperlane-registry/refs/heads/only-fuel-routes/deployments/warp_routes/FUEL/logo.svg",
+  "image": "https://raw.githubusercontent.com/FuelLabs/hyperlane-registry/refs/heads/only-fuel-routes/deployments/warp_routes/FUEL/logo.svg",
   "attributes": []
 }
