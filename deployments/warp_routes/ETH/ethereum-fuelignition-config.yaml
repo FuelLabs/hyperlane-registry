@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=../schema.json
+tokens:
+  - addressOrDenom: "0xeF3B901FdFd470f1E4837AB7a1e07E4670eC2495"
+    logoURI: /deployments/warp_routes/ETH/logo.svg
+    chainName: ethereum
+    connections:
+      - token: fuel|fuelignition|0x8441d17f78ee8fed3e51889a42a57e278fa8fc488c91330c9ee45bd499dd0c42
+    decimals: 18
+    name: Ether
+    standard: EvmHypNative
+    symbol: ETH
+  - addressOrDenom: "0x8441d17f78ee8fed3e51889a42a57e278fa8fc488c91330c9ee45bd499dd0c42"
+    logoURI: /deployments/warp_routes/ETH/logo.svg
+    chainName: fuelignition
+    connections:
+      - token: ethereum|ethereum|0xeF3B901FdFd470f1E4837AB7a1e07E4670eC2495
+    decimals: 9
+    name: Ethereum
+    standard: FuelHypSynthetic
+    symbol: ETH
