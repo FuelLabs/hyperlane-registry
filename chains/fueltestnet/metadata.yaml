@@ -13,9 +13,9 @@ deployer:
   name: Simply Staking
   url: https://www.simplystaking.com
 displayName: Fuel Testnet
-isTestnet: true
 domainId: 1717982312
 gasCurrencyCoinGeckoId: fuel-2
+isTestnet: true
 name: fueltestnet
 nativeToken:
   decimals: 9

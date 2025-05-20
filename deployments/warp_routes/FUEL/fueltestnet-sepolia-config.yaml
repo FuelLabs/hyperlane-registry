@@ -1,0 +1,21 @@
+# yaml-language-server: $schema=../schema.json
+tokens:
+  - addressOrDenom: "0x664E4E7Cf797019846364c981247FD7BBF2fe9B7"
+    chainName: sepolia
+    collateralAddressOrDenom: "0xd7Fc4e8FB2c05567C313f4C9b9e07641a361a550"
+    connections:
+      - token: fuel|fueltestnet|0xf3ea5de481f3a0cc8c01c69a51b91190b8b2cef25c3aba39f7925931c46914ae
+    decimals: 9
+    logoURI: /deployments/warp_routes/FUEL/logo.svg
+    name: Fuel Token
+    standard: EvmHypCollateral
+    symbol: FUEL
+  - addressOrDenom: "0xf3ea5de481f3a0cc8c01c69a51b91190b8b2cef25c3aba39f7925931c46914ae"
+    chainName: fueltestnet
+    connections:
+      - token: ethereum|sepolia|0x664E4E7Cf797019846364c981247FD7BBF2fe9B7
+    decimals: 9
+    logoURI: /deployments/warp_routes/FUEL/logo.svg
+    name: Fuel Token
+    standard: FuelHypSynthetic
+    symbol: FUEL

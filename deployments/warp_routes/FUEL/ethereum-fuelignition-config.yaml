@@ -1,0 +1,21 @@
+# yaml-language-server: $schema=../schema.json
+tokens:
+  - addressOrDenom: "0xc12b2ba231d421a72489b1f4EdAa22FA07c08ad4"
+    chainName: ethereum
+    collateralAddressOrDenom: "0x675B68AA4d9c2d3BB3F0397048e62E6B7192079c"
+    connections:
+      - token: fuel|fuelignition|0x650187288a3649d21f561da300147c72a6e58bc3cf274d056d6b2babb13aaf70
+    decimals: 9
+    logoURI: /deployments/warp_routes/FUEL/logo.svg
+    name: FUEL
+    standard: EvmHypCollateral
+    symbol: FUEL
+  - addressOrDenom: "0x650187288a3649d21f561da300147c72a6e58bc3cf274d056d6b2babb13aaf70"
+    chainName: fuelignition
+    connections:
+      - token: ethereum|ethereum|0xc12b2ba231d421a72489b1f4EdAa22FA07c08ad4
+    decimals: 9
+    logoURI: /deployments/warp_routes/FUEL/logo.svg
+    name: FUEL
+    standard: FuelHypSynthetic
+    symbol: FUEL
