@@ -1,21 +1,21 @@
 # yaml-language-server: $schema=../schema.json
 tokens:
   - addressOrDenom: "0x60e1b23fDC21a1cEA6C214e98366A07D9A27763D"
-    logoURI: /deployments/warp_routes/USDC/logo.svg
     chainName: ethereum
     collateralAddressOrDenom: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
     connections:
       - token: fuel|fuelignition|0x561870d599683e7d0fbac87d6f011f2ea3a6eeac0cfc0c1224ce98c083b6d46c
     decimals: 6
+    logoURI: /deployments/warp_routes/USDC/logo.svg
     name: USD Coin
     standard: EvmHypCollateral
     symbol: USDC
   - addressOrDenom: "0x561870d599683e7d0fbac87d6f011f2ea3a6eeac0cfc0c1224ce98c083b6d46c"
-    logoURI: /deployments/warp_routes/USDC/logo.svg
     chainName: fuelignition
     connections:
       - token: ethereum|ethereum|0x60e1b23fDC21a1cEA6C214e98366A07D9A27763D
     decimals: 6
+    logoURI: /deployments/warp_routes/USDC/logo.svg
     name: USDC
     standard: FuelHypSynthetic
     symbol: USDC

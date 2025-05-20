@@ -6,16 +6,16 @@ tokens:
     connections:
       - token: fuel|fuelignition|0x650187288a3649d21f561da300147c72a6e58bc3cf274d056d6b2babb13aaf70
     decimals: 9
+    logoURI: /deployments/warp_routes/FUEL/logo.svg
     name: FUEL
     standard: EvmHypCollateral
-    logoURI: /deployments/warp_routes/FUEL/logo.svg
     symbol: FUEL
   - addressOrDenom: "0x650187288a3649d21f561da300147c72a6e58bc3cf274d056d6b2babb13aaf70"
-    logoURI: /deployments/warp_routes/FUEL/logo.svg
     chainName: fuelignition
     connections:
       - token: ethereum|ethereum|0xc12b2ba231d421a72489b1f4EdAa22FA07c08ad4
     decimals: 9
+    logoURI: /deployments/warp_routes/FUEL/logo.svg
     name: FUEL
     standard: FuelHypSynthetic
     symbol: FUEL

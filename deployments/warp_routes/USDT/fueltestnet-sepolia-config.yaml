@@ -1,21 +1,21 @@
 # yaml-language-server: $schema=../schema.json
 tokens:
-  - chainName: sepolia
-    standard: EvmHypCollateral
-    decimals: 6
-    symbol: USDT
-    name: Test Tether USD
-    logoURI: /deployments/warp_routes/USDT/logo.svg
-    addressOrDenom: "0x72Ac88e08Cef6189b259CDeE251a8631dEE3aCB7"
+  - addressOrDenom: "0x72Ac88e08Cef6189b259CDeE251a8631dEE3aCB7"
+    chainName: sepolia
     collateralAddressOrDenom: "0x7169d38820dfd117c3fa1f22a697dba58d90ba06"
     connections:
       - token: fuel|fueltestnet|0xe287e8e87d52d62a1e36a5fa54414e84d4a435f59e506e2873774d9eec3d9c8f
-  - chainName: fueltestnet
-    standard: FuelHypSynthetic
     decimals: 6
     logoURI: /deployments/warp_routes/USDT/logo.svg
-    symbol: USDT
     name: Test Tether USD
-    addressOrDenom: "0xe287e8e87d52d62a1e36a5fa54414e84d4a435f59e506e2873774d9eec3d9c8f"
+    standard: EvmHypCollateral
+    symbol: USDT
+  - addressOrDenom: "0xe287e8e87d52d62a1e36a5fa54414e84d4a435f59e506e2873774d9eec3d9c8f"
+    chainName: fueltestnet
     connections:
       - token: ethereum|sepolia|0x72Ac88e08Cef6189b259CDeE251a8631dEE3aCB7
+    decimals: 6
+    logoURI: /deployments/warp_routes/USDT/logo.svg
+    name: Test Tether USD
+    standard: FuelHypSynthetic
+    symbol: USDT
